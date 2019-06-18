@@ -1,6 +1,9 @@
 import React from 'react';
 import { relative } from 'path';
 import Carousel from './Carousel';
+import Countdown from './Countdown';
+
+
 const Featured = () => {
     return (
         <div style={{position: relative}}>
@@ -11,6 +14,7 @@ const Featured = () => {
                     Ariana Grande
                 </div>
             </div>
+            <Countdown />
         </div>
     );
 };
